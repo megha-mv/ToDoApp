@@ -1,6 +1,4 @@
-import Done from "./Components/Done";
-import InProgress from "./Components/InProgress";
-import ListTasks from "./Components/ListTasks";
+import ListTaskColumn from './Components/ListTaskColumn'
 import {TaskStyledFirstDiv} from './Components/style'
 
 function App() {
@@ -8,9 +6,7 @@ function App() {
     <div>
       <h1>ToDo App</h1>
       <TaskStyledFirstDiv>
-      <ListTasks/>
-      <InProgress/>
-      <Done/>
+      <ListTaskColumn/>
       </TaskStyledFirstDiv>
     </div>
   );
